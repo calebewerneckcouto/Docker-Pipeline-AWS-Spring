@@ -63,7 +63,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           use_existing_version_if_available: true
           wait_for_environment_recovery: 120
-          application_name: app-spring-boot 
+          application_name: App-spring-boot-env
           environment_name: e-2ygpwutpvr
           version_label: ${{ github.SHA }}
           region: us-west-1
