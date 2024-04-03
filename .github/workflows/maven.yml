@@ -63,8 +63,8 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           use_existing_version_if_available: true
           wait_for_environment_recovery: 120
-          application_name: app-spring-boot
-          environment_name: App-spring-boot-env
-          version_label: ${{ github.SHA }}
+          application_name: cwc
+          environment_name: Cwc-env
+          version_label: 1
           region: us-west-1
           deployment_package: app.war
