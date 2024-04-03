@@ -64,7 +64,7 @@ jobs:
           use_existing_version_if_available: true
           wait_for_environment_recovery: 120
           application_name: cwc
-          environment_name: cwc-env
-          version_label: 2
+          environment_name: Cwc-env
+          version_label: cwc-version-2
           region: us-west-1
           deployment_package: app.war
