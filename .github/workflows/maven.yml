@@ -66,5 +66,5 @@ jobs:
           application_name: cwc
           environment_name: Cwc-env
           version_label: cwc-version-2
-          region: us-west-1
+          region: us-east-1
           deployment_package: app.war
