@@ -8,6 +8,7 @@ on:
 
 jobs:
    tests:
+    name: Run unit tests
     
     runs-on: ubuntu-latest
 
@@ -21,4 +22,3 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B test --file ./compra/pom.xml
-
